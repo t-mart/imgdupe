@@ -1,0 +1,13 @@
+[package]
+name = "imgdupe"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bitvec = "1.0.1"
+clap = { version = "4.3.8", features = ["derive"] }
+image = "0.24.6"
+indicatif = {version = "0.17.5",  features = ["rayon"]}
+rayon = "1.7.0"
+serde_json = "1.0.99"
+walkdir = "2.3.3"
